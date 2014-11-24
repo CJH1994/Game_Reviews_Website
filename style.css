@@ -1,0 +1,60 @@
+#wrapper {
+	height: 1040px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+	background-image: url(cream_plaster.jpg);
+	
+	
+}
+
+#header {
+	height: 140px;
+	width: 1000px;
+	background-color: #fff;
+	background-image: url(temporary_logo.png);
+		
+}
+
+#navigation {
+	
+	height: 70px;
+	width: 940px;
+	background-color: #000;
+	color: white;
+	text-allign: center;
+	text-transform: uppercase;
+	font-family: Verdana, Geneva, sans-serif;
+	text-decoration: none;
+	padding-left: 60px;
+
+
+}
+
+
+#content {
+	height: 800px;
+	width: 1000px;
+	text-align: center;
+	color: #000;
+	background-image: url(cream_plaster.jpg);
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-style: normal;
+	font-size: 20px;
+	
+	
+}
+
+#footer {
+	
+	height: 20px;
+	width: 1000px;
+	color: #FFF;
+	background-color: #000;
+	text-align: center;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-style: normal;
+	font-size: 20px;
+	
+}
