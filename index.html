@@ -4,7 +4,37 @@
         <meta charset="utf-8" />
         <title>CJH Game Reviews</title>
         <link rel="stylesheet" href="style.css" />
+    
+    <script language="JavaScript1.1">
+<!--
+
+        var slideimages=new Array()
+        var slidelinks=new Array()
+        function slideshowimages(){
+        for (i=0;i<slideshowimages.arguments.length;i++){
+        slideimages[i]=new Image()
+        slideimages[i].src=slideshowimages.arguments[i]
+
+}
+}
+
+        function slideshowlinks(){
+        for (i=0;i<slideshowlinks.arguments.length;i++)
+        slidelinks[i]=slideshowlinks.arguments[i]
+}
+
+        function gotoshow(){
+        if (!window.winslide||winslide.closed)
+        winslide=window.open(slidelinks[whichlink])
+        else
+        winslide.location=slidelinks[whichlink]
+        winslide.focus()
+}
+
+//-->
+</script>
     </head>
+    
     <body>
         <body background="background2.jpg"text="white" </body>
         <div id="wrapper">
@@ -18,6 +48,39 @@
             
                 </div>
   <div id="content">
+       <div style="top: 70px; left: 600px; width: 150px; position: absolute;">
+
+           <div id="slideshow" class="slideshow">
+
+</div>
+</div>
+         <br>  <a href="javascript:gotoshow()"><img src="Game_Reviews_Website(master)" name="slide" border=1 width=150 height=220></a>
+<script>
+<!--
+
+            slideshowimages("fifa15cover.jpg","gtavcover.jpg","mariokart7cover.jpg","wwetk14cover.jpeg","nextcargamecover.jpg")
+            slideshowlinks("http://food.epicurious.com/run/recipe/view?id=13285","http://food.epicurious.com/run/recipe/view?id=10092","http://food.epicurious.com/run/recipe/view?id=100975","http://food.epicurious.com/run/recipe/view?id=2876","http://food.epicurious.com/run/recipe/view?id=20010")
+
+
+            var slideshowspeed=3000
+
+            var whichlink=0
+            var whichimage=0
+            function slideit(){
+            if (!document.images)
+            return
+            document.images.slide.src=slideimages[whichimage].src
+            whichlink=whichimage
+            if (whichimage<slideimages.length-1)
+            whichimage++
+            else
+            whichimage=0
+            setTimeout("slideit()",slideshowspeed)
+}
+            slideit()
+
+//-->
+</script>
                
             <br>
                 <br>
@@ -29,6 +92,7 @@
         
             <div id="footer">
             <p>Contact: harveyc5@uni.coventry.ac.uk</p></div>
-        </div></div>
+    </div>
     </body>
 </html>
+
