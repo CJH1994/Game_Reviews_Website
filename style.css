@@ -1,5 +1,5 @@
 #wrapper {
-	height: 1040px;
+	height: 1070px;
 	width: 1000px;
 	margin-right: auto;
 	margin-left: auto;
@@ -34,7 +34,7 @@
 
 
 #content {
-	height: 800px;
+	height: 830px;
 	width: 1000px;
 	text-align: center;
 	color: #000;
@@ -55,6 +55,6 @@
 	text-align: center;
 	font-family: "Arial Black", Gadget, sans-serif;
 	font-style: normal;
-	font-size: 20px;
+	font-size: 15px;
 	
 }
