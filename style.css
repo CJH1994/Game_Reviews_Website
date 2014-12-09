@@ -23,7 +23,7 @@
 	width: 940px;
 	background-color: #000;
 	color: white;
-	text-allign: center;
+	text-align: center;
 	text-transform: uppercase;
 	font-family: Verdana, Geneva, sans-serif;
 	text-decoration: none;
@@ -63,9 +63,13 @@
     text-align: center;
     width: 300px;
     font-size: 10px;
+    
 }
 
 .img-with-text img {
     display: block;
     margin: 0 auto;
+    padding-left: 0px;
 }
+
+
