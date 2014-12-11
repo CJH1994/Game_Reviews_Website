@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+        <title>Contact</title>
+        <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src=" jquery.min.js"></script>
+	
+     <body background="background2.jpg"text="white" </body>
+        <div id="wrapper">
+            <div id="header"<br></div>
+            <div id="navigation">          
+ 
+                <a href="index.html">  <img src="home1.png" onmouseover="this.src='home_1_hover.png'" onmouseout="this.src='home1.png'" /></a>
+      <a href="#"> <img src="FOOTBALL.png" onmouseover="this.src='FOOTBALL_HOVER.png'" onmouseout="this.src='FOOTBALL.png'"/></a>                  
+             <a href="#"> <img src="RACING.png" onmouseover="this.src='RACING_HOVER.png'" onmouseout="this.src='RACING.png'"/></a>    
+                   <a href="#"> <img src="contactnew.png" onmouseover="this.src='contact_hover.png'" onmouseout="this.src='contactnew.png'"/></a> 
+            
+                </div>
+ <script>
+   
+     
+    </script>
+    
+    <div id="content">
+      <form id="form1" name="form1" onsubmit="return CheckForm()"  method="post" action="">
+      <p>
+        <label for="textfield"></label>
+        <label for="First name"></label>
+        <label for="First name entry"></label>
+          
+      </p>
+      <table width="600" align="center">
+        <tr>
+          <td width="317">First name:</td>
+          <td width="342"><p>&nbsp;</p>
+            <p>
+              <input name="First name entry"  placeholder="Please enter your first name" type="text" required id="First name entry"  required size="50"/> 
+                 <span class="error">This field is required</span>
+          </p>
+          <p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td>Surname:</td>
+          <td><p>&nbsp;
+            </p>
+            <p>
+              <input name="Surname entry" placeholder="Please enter your surname" type="text" required id="Surname entry" size="50" />
+                 
+            </p>
+          <p>&nbsp; </p></td>
+        </tr>
+        <tr>
+          <td>Gender:</td>
+          <td><p>&nbsp;
+            </p>
+            <p>
+              <input name="Gender entry" placeholder="Please select your gender" type="text" required id="Gender entry" />
+                 
+            </p>
+          <p>&nbsp; </p></td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td><p>&nbsp;
+            </p>
+            <p>
+              <input name="Email entry" placeholder="Please enter your email" type="email" required id="Email entry" size="50" />
+                
+            </p>
+          <p>&nbsp; </p></td>
+        </tr>
+        <tr>
+          <td>Do you like the website?</td>
+          <td><p>&nbsp;
+            </p>
+            <p>
+              <input name="Uesful website entry" placeholder="Please select" type="text" id="Uesful website entry" size="50" />
+                
+            </p>
+          <p>&nbsp; </p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td><p>
+            <input type="submit" name="button" id="button" value="Submit" />
+          </p>
+            <p>&nbsp; </p></td>
+        </tr>
+      </table>
+      <p>
+        <label for="Surname"></label>
+        <label for="Surname entry"></label>
+          <span class="error">This field is required</span>
+      </p>
+      <p>
+        <label for="Gender"></label>
+        <label for="Gender entry"></label>
+          <span class="error">This field is required</span>
+      </p>
+      <p>
+        <label for="Age Group"></label>
+        <label for="Age group entry"></label>
+        <label for="Email"></label>
+        <label for="Email entry"></label>
+          <span class="error">A valid email address is required</span>
+      </p>
+      <p>
+        <label for="Useful website?"></label>
+  <label for="Uesful website entry"></label>
+           <span class="error">This field is required</span>
+</p>
+<p>&nbsp;</p>
+    </form>
+    <script type="text/javascript">
+	function CheckForm() {
+		var a=document.forms["form1"]["First name entry"].value 
+		var b=document.forms["form1"]["Surname entry"].value
+		var c=document.forms["form1"]["Gender entry"].value
+		var d=document.forms["form1"]["Email entry"].value
+	
+			if (a==null || a=="" || b==null || b=="" ||d==null || d=="" ||c==null || c=="")
+			{
+				alert("All fields must be filled in!");
+				return false;
+			}
+		}	
+		</script>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  </div>
+</div>
+
+
+
+</body>
+
+</html>
