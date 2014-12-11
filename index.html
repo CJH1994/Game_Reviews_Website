@@ -10,18 +10,21 @@
 
         var slideimages=new Array()
         function slideshowimages(){
-        for (i=0;i<slideshowimages.arguments.length;i++){
+        for (i=0;i<slideshowimages.arguments.length;i++){     
         slideimages[i]=new Image()
         slideimages[i].src=slideshowimages.arguments[i]
-
+                                                                        /*
+                                                                            JavaScript Image slideshow:
+                                                                            By JavaScript Kit (www.javascriptkit.com)
+                                                                            Over 200+ free JavaScript here!
+                                                                        */
 }
 }
 
-
-
+    
         function gotoshow(){
         if (!window.winslide||winslide.closed)
-        winslide=window.open(slidelinks[whichlink])
+        winslide=window.open(slidelinks)
         else
         winslide.location=slidelinks[whichlink]
         winslide.focus()
@@ -54,8 +57,8 @@
 <script>
 <!--
 
-            slideshowimages("fifa15cover.jpg","gtavcover.jpg","mariokart7cover.jpg","wwetk14cover.jpeg","nextcargamecover.jpg")
-            
+            slideshowimages ("fifa15cover.jpg","gtavcover.jpg","mariokart7cover.jpg","wwetk14cover.jpeg","nextcargamecover.jpg")
+           
 
 
             var slideshowspeed=3000
@@ -80,14 +83,14 @@
              
             <br>
                 <br>
-                  <p>Welcome to CJH Game Reviews, the place to be when you want to check out solid reviews on your favourite games, or even games which you are considering buying. This site will contain a variety of different games under different genres which i'm sure will suit many of you gamers out there! 
+                  <h2>Welcome to CJH Game Reviews, the place to be when you want to check out solid reviews on your favourite games, or even games which you are considering buying. This site will contain a variety of different games under different genres which i'm sure will suit many of you gamers out there! 
             <br>
             <br>
-                    Be sure to take a look through and check out if any games suit you, see if you agree with my opinions or whether you have totally different views, one things for sure though, you will enjoy if you let the gamer in you come out...</p>
+                    Be sure to take a look through and check out if any games suit you, see if you agree with my opinions or whether you have totally different views, one things for sure though, you will enjoy if you let the gamer in you come out...</h2>
             
-            <br>
-                    If you like your experience, please like my Facebook page where you can post your views and opinions and share those with others. Click the icon below to like my page:
-            <br>
+            
+      <h3>  If you like your experience, please like my Facebook page where you can post your views and opinions and share those with others. Click the icon below to like my page: </h3>
+            
                   <a href="https://www.facebook.com/pages/CJH-Game-Reviews/320209301514322?ref=aymt_homepage_panel" /> <img src= "facebook_icon.png"> </a>
         </div>
         
