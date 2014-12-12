@@ -5,6 +5,7 @@
 	margin-left: auto;
 	background-color: #FFF;
 	background-image: url(cream_plaster.jpg);
+    position:static;
 	
 	
 }
@@ -14,6 +15,7 @@
 	width: 1000px;
 	background-color: #fff;
 	background-image: url(CJH_Game_Reviews_logo.png);
+    position:static;
 		
 }
 
