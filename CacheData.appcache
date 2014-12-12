@@ -1,0 +1,10 @@
+CACHE MANIFEST
+/style.css
+/CJH_Game_Reviews_logo.png
+/Slideshow.js
+
+NETWORK:
+login.asp
+
+FALLBACK:
+/html/ /offline.html
